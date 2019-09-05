@@ -1,0 +1,9 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'SmartFontUI';
+  src: url("../font/03スマートフォントUI.ttf");
+}
+@font-face {
+  font-family: 'Line';
+  src: url("../font/Line-Light.otf") format("opentype");
+}

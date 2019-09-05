@@ -1,0 +1,163 @@
+@import "font";
+
+#wrap{
+    /*全画面表示※横幅はスクロールバーが出るので100%にすること*/
+    width: 100%;
+
+}
+
+//上へ行くボタン
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 77%;
+    z-index: 999;
+
+    a{
+        background: #5ABE3B;
+        text-decoration: none;
+        color: #fff;
+        width: 100px;
+        padding: 30px 0;
+        text-align: center;
+        display: block;
+        border-radius: 5px;
+        transition: background-color 0.3s linear, color 0.3s linear;
+
+        &:hover{
+            text-decoration: none;
+            background-color: white;
+            color: black
+        }
+    }
+}
+
+main{
+    width: 100%;
+
+    #contents{
+        width: 100%;
+
+        #photo-all{
+
+          .photo-zone{
+            width: 100vw;
+            height: 100vh;
+            text-align: center;
+            display: flex; /* 要素をflexboxに対応させる */
+            align-items: center; /* 縦方向の中央揃え */
+            justify-content: center; /* 横方向の中央揃え */
+            flex-direction: column; /* 子要素の並びを上から下にする（要素の改行に対応） */
+
+            h2{
+              font-family: Line;
+              font-size: 50px;
+              margin-bottom: 40px;
+
+              &.smart-font{
+                display: inline-block;
+                margin-top: 40px;
+                font-family: SmartFontUI;
+                font-size: 35px;
+              }
+            }
+            p{
+              font-family: SmartFontUI;
+              font-size: 35px;
+            }
+          }
+          #skill{
+            background-attachment: fixed; /**/
+            background-image: url("../images/back-img/sun_r.jpg");
+            background-position: center center; /*真ん中に表示*/
+            background-repeat: no-repeat; /*画像をリピートさせない*/
+            background-size: cover; /*全画面表示*/
+            color: black;
+            opacity: 0.8;
+          }
+          #engineer{
+            background-attachment: fixed; /**/
+            background-image: url("../images/back-img/computer_r.jpg");
+            background-position: center center; /*真ん中に表示*/
+            background-repeat: no-repeat; /*画像をリピートさせない*/
+            background-size: cover; /*全画面表示*/
+            color: white;
+            ul{
+              display: flex;
+              li{
+                padding: 0 15px;
+
+                &:hover{
+                  border-bottom: solid 1px #5ABE3B;
+                }
+                a{
+
+                  color: white;
+                  text-decoration: none;
+                  transition: color 0.3s linear;
+                    &:hover{
+                      color: #5ABE3B;
+                    }
+                  p{
+
+                    font-family: SmartFontUI;
+                    font-size: 35px;
+                  }
+                }
+              }
+            }
+          }
+          #web-design{
+            background-attachment: fixed; /**/
+            background-image: url("../images/back-img/design_r.jpg");
+            background-position: center center; /*真ん中に表示*/
+            background-repeat: no-repeat; /*画像をリピートさせない*/
+            background-size: cover; /*全画面表示*/
+            color: black;
+            ul + ul{
+              margin-top: 30px;
+            }
+            ul{
+              display: flex;
+              li{
+                padding: 0 15px;
+                &:hover{
+                  border-bottom: solid 1px #5ABE3B;
+                }
+                a{
+
+                  color: black;
+                  text-decoration: none;
+                  transition: color 0.3s linear;
+                    &:hover{
+                      color: #5ABE3B;
+                    }
+                  p{
+
+                    font-family: SmartFontUI;
+                    font-size: 35px;
+                  }
+                }
+              }
+            }
+          }
+          #illust{
+            background-attachment: fixed; /**/
+            background-image: url("../images/back-img/illust_r.jpg");
+            background-position: center center; /*真ん中に表示*/
+            background-repeat: no-repeat; /*画像をリピートさせない*/
+            background-size: cover; /*全画面表示*/
+            color: black;
+          }
+          #music{
+            background-attachment: fixed; /**/
+            background-image: url("../images/back-img/music_r.jpg");
+            background-position: center center; /*真ん中に表示*/
+            background-repeat: no-repeat; /*画像をリピートさせない*/
+            background-size: cover; /*全画面表示*/
+            color: white;
+          }
+        }
+    }
+}

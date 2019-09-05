@@ -1,0 +1,86 @@
+@import "font";
+
+#wrap{
+    /*全画面表示※横幅はスクロールバーが出るので100%にすること*/
+    width: 100%;
+}
+
+main{
+    width: 100%;
+
+    #contents{
+        width: 100%;
+
+        #title{
+          display: flex;;
+          justify-content: center;
+          margin-top: 15px;
+          margin-bottom: 15px;
+
+          h2{
+            font-family: SmartFontUI;
+            font-size: 30px;
+          }
+        }
+
+        #item{
+          display: flex;
+          flex-direction: column;
+
+          .item-img{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+
+            h2{
+              font-family: SmartFontUI;
+              font-size: 30px;
+              margin-bottom: 30px;
+
+            }
+            .item-spare{
+
+
+              a{
+                color: black;
+                text-decoration: none;
+
+                &:hover{
+                  opacity: 0.8;
+                }
+                img{
+                  margin: 0 30px;
+                  margin-bottom: 20px;
+                  border-radius: 5px;
+                  border: solid 1px #000;
+                  transition: box-shadow 0.3s linear;
+
+                  &:hover{
+                    box-shadow: 2px 2px 2px 2px #5b506b;
+                  }
+                }
+                h3{
+                  font-family: SmartFontUI;
+                }
+              }
+            }
+            #end{
+              //最後の部分の空白
+              padding-bottom: 30px;
+            }
+          }
+          #item-colom{
+            flex-direction: row;
+          }
+        }
+        h2{
+          //フォントなど2つ以上あるやつの場合のみ
+          margin-top: 50px;
+          margin-bottom: 30px;
+          text-align: center;
+          font-family: SmartFontUI;
+          font-size: 30px;
+        }
+    }
+}

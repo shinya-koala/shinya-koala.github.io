@@ -1,0 +1,32 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'SmartFontUI';
+  src: url("../font/03スマートフォントUI.ttf");
+}
+@font-face {
+  font-family: 'Line';
+  src: url("../font/Line-Light.otf") format("opentype");
+}
+/* line 2, ../sass/fullscreen.scss */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* line 7, ../sass/fullscreen.scss */
+#wrap {
+  height: 100%;
+}
+
+/* line 13, ../sass/fullscreen.scss */
+main #contents img {
+  /*全画面表示※横幅はスクロールバーが出るので100%にすること*/
+  width: 100vw;
+  background-color: 000;
+  background-attachment: fixed;
+  /**/
+  background-repeat: no-repeat;
+  /*画像をリピートさせない*/
+  background-size: cover;
+  /*全画面表示*/
+}

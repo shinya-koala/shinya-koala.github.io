@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'SmartFontUI';
+  src: url("../font/03スマートフォントUI.ttf");
+}
+@font-face {
+  font-family: 'Line';
+  src: url("../font/Line-Light.otf") format("opentype");
+}
+/* line 3, ../sass/skill-modal.scss */
+#wrap {
+  /*全画面表示※横幅はスクロールバーが出るので100%にすること*/
+  width: 100%;
+  height: 100vh;
+}
+
+/* line 10, ../sass/skill-modal.scss */
+#contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: SmartFontUI;
+}
+/* line 16, ../sass/skill-modal.scss */
+#contents h2 {
+  font-size: 20px;
+}
+/* line 19, ../sass/skill-modal.scss */
+#contents h3 {
+  font-size: 16px;
+}
+/* line 22, ../sass/skill-modal.scss */
+#contents p {
+  text-align: center;
+}

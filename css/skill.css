@@ -1,0 +1,206 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'SmartFontUI';
+  src: url("../font/03スマートフォントUI.ttf");
+}
+@font-face {
+  font-family: 'Line';
+  src: url("../font/Line-Light.otf") format("opentype");
+}
+/* line 3, ../sass/skill.scss */
+#wrap {
+  /*全画面表示※横幅はスクロールバーが出るので100%にすること*/
+  width: 100%;
+}
+
+/* line 10, ../sass/skill.scss */
+#page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 77%;
+  z-index: 999;
+}
+/* line 17, ../sass/skill.scss */
+#page-top a {
+  background: #5ABE3B;
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  padding: 30px 0;
+  text-align: center;
+  display: block;
+  border-radius: 5px;
+  transition: background-color 0.3s linear, color 0.3s linear;
+}
+/* line 28, ../sass/skill.scss */
+#page-top a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+
+/* line 36, ../sass/skill.scss */
+main {
+  width: 100%;
+}
+/* line 39, ../sass/skill.scss */
+main #contents {
+  width: 100%;
+}
+/* line 44, ../sass/skill.scss */
+main #contents #photo-all .photo-zone {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  /* 要素をflexboxに対応させる */
+  align-items: center;
+  /* 縦方向の中央揃え */
+  justify-content: center;
+  /* 横方向の中央揃え */
+  flex-direction: column;
+  /* 子要素の並びを上から下にする（要素の改行に対応） */
+}
+/* line 53, ../sass/skill.scss */
+main #contents #photo-all .photo-zone h2 {
+  font-family: Line;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+/* line 58, ../sass/skill.scss */
+main #contents #photo-all .photo-zone h2.smart-font {
+  display: inline-block;
+  margin-top: 40px;
+  font-family: SmartFontUI;
+  font-size: 35px;
+}
+/* line 65, ../sass/skill.scss */
+main #contents #photo-all .photo-zone p {
+  font-family: SmartFontUI;
+  font-size: 35px;
+}
+/* line 70, ../sass/skill.scss */
+main #contents #photo-all #skill {
+  background-attachment: fixed;
+  /**/
+  background-image: url("../images/back-img/sun_r.jpg");
+  background-position: center center;
+  /*真ん中に表示*/
+  background-repeat: no-repeat;
+  /*画像をリピートさせない*/
+  background-size: cover;
+  /*全画面表示*/
+  color: black;
+  opacity: 0.8;
+}
+/* line 79, ../sass/skill.scss */
+main #contents #photo-all #engineer {
+  background-attachment: fixed;
+  /**/
+  background-image: url("../images/back-img/computer_r.jpg");
+  background-position: center center;
+  /*真ん中に表示*/
+  background-repeat: no-repeat;
+  /*画像をリピートさせない*/
+  background-size: cover;
+  /*全画面表示*/
+  color: white;
+}
+/* line 86, ../sass/skill.scss */
+main #contents #photo-all #engineer ul {
+  display: flex;
+}
+/* line 88, ../sass/skill.scss */
+main #contents #photo-all #engineer ul li {
+  padding: 0 15px;
+}
+/* line 91, ../sass/skill.scss */
+main #contents #photo-all #engineer ul li:hover {
+  border-bottom: solid 1px #5ABE3B;
+}
+/* line 94, ../sass/skill.scss */
+main #contents #photo-all #engineer ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s linear;
+}
+/* line 99, ../sass/skill.scss */
+main #contents #photo-all #engineer ul li a:hover {
+  color: #5ABE3B;
+}
+/* line 102, ../sass/skill.scss */
+main #contents #photo-all #engineer ul li a p {
+  font-family: SmartFontUI;
+  font-size: 35px;
+}
+/* line 111, ../sass/skill.scss */
+main #contents #photo-all #web-design {
+  background-attachment: fixed;
+  /**/
+  background-image: url("../images/back-img/design_r.jpg");
+  background-position: center center;
+  /*真ん中に表示*/
+  background-repeat: no-repeat;
+  /*画像をリピートさせない*/
+  background-size: cover;
+  /*全画面表示*/
+  color: black;
+}
+/* line 118, ../sass/skill.scss */
+main #contents #photo-all #web-design ul + ul {
+  margin-top: 30px;
+}
+/* line 121, ../sass/skill.scss */
+main #contents #photo-all #web-design ul {
+  display: flex;
+}
+/* line 123, ../sass/skill.scss */
+main #contents #photo-all #web-design ul li {
+  padding: 0 15px;
+}
+/* line 125, ../sass/skill.scss */
+main #contents #photo-all #web-design ul li:hover {
+  border-bottom: solid 1px #5ABE3B;
+}
+/* line 128, ../sass/skill.scss */
+main #contents #photo-all #web-design ul li a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s linear;
+}
+/* line 133, ../sass/skill.scss */
+main #contents #photo-all #web-design ul li a:hover {
+  color: #5ABE3B;
+}
+/* line 136, ../sass/skill.scss */
+main #contents #photo-all #web-design ul li a p {
+  font-family: SmartFontUI;
+  font-size: 35px;
+}
+/* line 145, ../sass/skill.scss */
+main #contents #photo-all #illust {
+  background-attachment: fixed;
+  /**/
+  background-image: url("../images/back-img/illust_r.jpg");
+  background-position: center center;
+  /*真ん中に表示*/
+  background-repeat: no-repeat;
+  /*画像をリピートさせない*/
+  background-size: cover;
+  /*全画面表示*/
+  color: black;
+}
+/* line 153, ../sass/skill.scss */
+main #contents #photo-all #music {
+  background-attachment: fixed;
+  /**/
+  background-image: url("../images/back-img/music_r.jpg");
+  background-position: center center;
+  /*真ん中に表示*/
+  background-repeat: no-repeat;
+  /*画像をリピートさせない*/
+  background-size: cover;
+  /*全画面表示*/
+  color: white;
+}

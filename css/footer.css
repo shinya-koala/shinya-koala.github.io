@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'SmartFontUI';
+  src: url("../font/03スマートフォントUI.ttf");
+}
+@font-face {
+  font-family: 'Line';
+  src: url("../font/Line-Light.otf") format("opentype");
+}
+/* line 2, ../sass/footer.scss */
+#wrap {
+  position: relative;
+}
+
+/* line 6, ../sass/footer.scss */
+#footer-space {
+  height: 100px;
+}
+
+/* line 9, ../sass/footer.scss */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+/* line 13, ../sass/footer.scss */
+footer #frame {
+  text-align: center;
+  width: 100vw;
+  background-color: black;
+  padding: 50px 0;
+}
+/* line 18, ../sass/footer.scss */
+footer #frame p {
+  color: white;
+  font-family: Line;
+  font-size: 20px;
+}

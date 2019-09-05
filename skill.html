@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>portfolio_skill</title>
+    <!-- modaalのCSS -->
+    <link rel="stylesheet" href="css/iziModal.css">
+    <!-- jQueryプラグインを読み込み -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- modaal.jsの読み込み -->
+    <script type="text/javascript" src="js/iziModal.min.js"></script>
+    <!-- jsの読み込み -->
+    <script type="text/javascript" src="js/skill.js"></script>
+    <!-- font-awesomeを使用 -->
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- 共有CSS -->
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- リセットCSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- 現在のページのCSS -->
+    <link rel="stylesheet" href="css/skill.css">
+</head>
+
+<body>
+    <div id="wrap">
+
+        <!-- 共有header -->
+        <header>
+            <div id="logo">
+                <a href="index.html"><img src="images/logo/logo.png" width="96" height="72" alt="logo"></a>
+                <h1>C L E A T E　B O X</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <p><i class="fas fa-user"></i>about</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="skill.html">
+                            <p id="now"><i class="far fa-edit"></i>skill</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">
+                            <p><i class="far fa-image"></i>portfolio</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="item.html">
+                            <p><i class="fas fa-briefcase"></i>item</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div id="header-space"></div>
+
+        <p id="page-top"><a href="#wrap">PAGE TOP</a></p>
+
+        <main>
+            <div id="contents">
+
+                <div id="photo-all">
+                  <div class="photo-zone" id="skill">
+                    <h2>My SKILL</h2>
+                    <p>
+                      ここでは私の持っているスキル(経験したことあるものも)<br />
+                       やツールと一言を記していきます。<br />
+                       ※スキルを押すとスキルの得意度が表示されます。
+                     </p>
+                  </div>
+
+                  <div class="photo-zone" id="engineer">
+                    <h2>Engineer</h2>
+                    <p>
+                      コンピューターの専門学校や自分で学んだ<br />
+                      いろいろなスキル一覧です。以下の通りです。
+                    </p>
+                    <h2 class="smart-font">～スキル一覧～</h2>
+                    <ul>
+                      <li>
+                        <a href="#javascript" data-izimodal-open=".iziModal_iframe_javascript">
+                          <p>Javascript</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#jQuery" data-izimodal-open=".iziModal_iframe_jquery">
+                          <p>jQuery</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#PHP" data-izimodal-open=".iziModal_iframe_php">
+                          <p>PHP</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#java" data-izimodal-open=".iziModal_iframe_java">
+                          <p>java</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#ruby" data-izimodal-open=".iziModal_iframe_ruby">
+                          <p>ruby</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="photo-zone" id="web-design">
+                    <h2>Web Design</h2>
+                    <p>
+                      学校で学んだこと以外に自分でUIの本を読んだり、<br />
+                      調べたりしています。pinterestのサイトを見るのが好きです。
+                    </p>
+                    <!-- 一段目 -->
+                    <h2 class="smart-font">～スキル一覧～</h2>
+                    <ul>
+                      <li>
+                        <a href="#photoshop" data-izimodal-open=".iziModal_iframe_photoshop">
+                          <p>photoshop</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#illustrator" data-izimodal-open=".iziModal_iframe_illustrator">
+                          <p>illustrator</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#compass" data-izimodal-open=".iziModal_iframe_compass">
+                          <p>compass</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#sass" data-izimodal-open=".iziModal_iframe_sass">
+                          <p>sass</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#HTML5" data-izimodal-open=".iziModal_iframe_HTML5">
+                          <p>HTML5</p>
+                        </a>
+                      </li>
+                    </ul>
+                    <!-- 二段目 -->
+                    <ul>
+                      <li>
+                        <a href="#CSS3" data-izimodal-open=".iziModal_iframe_CSS3">
+                          <p>CSS3</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#UXUI" data-izimodal-open=".iziModal_iframe_UXUI">
+                          <p>UX/UI</p>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#XD" data-izimodal-open=".iziModal_iframe_XD">
+                          <p>XD</p>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="photo-zone" id="illust">
+                    <h2>Illust</h2>
+                    <p>
+                      イラストではいろいろなキャラクターを模写<br />
+                      したりしています。特にFFのクリーチャーなど<br />
+                      を好んで模写しています。
+                    </p>
+                  </div>
+                  <div class="photo-zone" id="music">
+                    <h2>Music</h2>
+                    <p>
+                      音楽では全般的に聞くのも<br />
+                      歌うのも大好きです。<br />
+                      歌では本格的に練習をしたりしています。<br />
+                      最近ではピアノやギターに手を出しています。
+                    </p>
+                  </div>
+
+                  <!-- Engineerジャンル -->
+                  <!-- javascriptのモーダルウィンドウ -->
+                  <div class="iziModal_iframe_javascript" data-izimodal-iframeURL="skill-modal/Engineer/javascript.html"></div>
+                  <!-- jQueryのモーダルウィンドウ -->
+                  <div class="iziModal_iframe_jquery" data-izimodal-iframeURL="skill-modal/Engineer/jquery.html"></div>
+                  <!-- phpのモーダルウィンドウ -->
+                  <div class="iziModal_iframe_php" data-izimodal-iframeURL="skill-modal/Engineer/php.html"></div>
+                  <!-- javaのモーダルウィンドウ -->
+                  <div class="iziModal_iframe_java" data-izimodal-iframeURL="skill-modal/Engineer/java.html"></div>
+                  <!-- rubyのモーダルウィンドウ -->
+                  <div class="iziModal_iframe_ruby" data-izimodal-iframeURL="skill-modal/Engineer/ruby.html"></div>
+
+                  <!-- Web-Designジャンル -->
+                  <!-- photoshopのモーダルウィンドウ -->
+                  <div class="iziModal_iframe_photoshop" data-izimodal-iframeURL="skill-modal/Web-Design/photoshop.html"></div>
+                  <!-- illustratorのモーダルウィンドウ -->
+                  <div class="iziModal_iframe_illustrator" data-izimodal-iframeURL="skill-modal/Web-Design/illustrator.html"></div>
+                  <!-- compassのモーダルウィンドウ -->
+                  <div class="iziModal_iframe_compass" data-izimodal-iframeURL="skill-modal/Web-Design/compass.html"></div>
+                  <!-- sassのモーダルウィンドウ -->
+                  <div class="iziModal_iframe_sass" data-izimodal-iframeURL="skill-modal/Web-Design/sass.html"></div>
+                  <!-- HTML5のモーダルウィンドウ -->
+                  <div class="iziModal_iframe_HTML5" data-izimodal-iframeURL="skill-modal/Web-Design/HTML5.html"></div>
+                  <!-- Css3のモーダルウィンドウ -->
+                  <div class="iziModal_iframe_CSS3" data-izimodal-iframeURL="skill-modal/Web-Design/CSS3.html"></div>
+                  <!-- UX/UIのモーダルウィンドウ -->
+                  <div class="iziModal_iframe_UXUI" data-izimodal-iframeURL="skill-modal/Web-Design/UXUI.html"></div>
+                  <!-- XDのモーダルウィンドウ -->
+                  <div class="iziModal_iframe_XD" data-izimodal-iframeURL="skill-modal/Web-Design/XD.html"></div>
+            </div>
+        </main>
+
+        <div id="footer-space"></div>
+        <footer>
+          <div id="frame">
+            <p>Copyright &copy; shinya-CreateBox</p>
+          </div>
+        </footer>
+
+    </div>
+</body>
+</html>

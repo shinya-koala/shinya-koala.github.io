@@ -1,0 +1,22 @@
+@import "font";
+html,body{
+  height: 100%;
+  //画像に余白ができるのを予防
+  margin:0;
+}
+#wrap{
+  height: 100%;
+}
+main{
+  #contents{
+
+    img{
+      /*全画面表示※横幅はスクロールバーが出るので100%にすること*/
+      width: 100vw;
+      background-color: 000;
+      background-attachment: fixed; /**/
+      background-repeat: no-repeat; /*画像をリピートさせない*/
+      background-size: cover; /*全画面表示*/
+    }
+  }
+}
