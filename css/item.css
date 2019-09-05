@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'SmartFontUI';
+  src: url("../font/03スマートフォントUI.ttf");
+}
+@font-face {
+  font-family: 'Line';
+  src: url("../font/Line-Light.otf") format("opentype");
+}
+/* line 3, ../sass/item.scss */
+#wrap {
+  /*全画面表示※横幅はスクロールバーが出るので100%にすること*/
+  width: 100%;
+}
+
+/* line 8, ../sass/item.scss */
+main {
+  width: 100%;
+}
+/* line 11, ../sass/item.scss */
+main #contents {
+  width: 100%;
+}
+/* line 14, ../sass/item.scss */
+main #contents #title {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+/* line 20, ../sass/item.scss */
+main #contents #title h2 {
+  font-family: SmartFontUI;
+  font-size: 30px;
+}
+/* line 26, ../sass/item.scss */
+main #contents #item {
+  display: flex;
+  flex-direction: column;
+}
+/* line 30, ../sass/item.scss */
+main #contents #item .item-img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+/* line 36, ../sass/item.scss */
+main #contents #item .item-img h2 {
+  font-family: SmartFontUI;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+/* line 45, ../sass/item.scss */
+main #contents #item .item-img .item-spare a {
+  color: black;
+  text-decoration: none;
+}
+/* line 49, ../sass/item.scss */
+main #contents #item .item-img .item-spare a:hover {
+  opacity: 0.8;
+}
+/* line 52, ../sass/item.scss */
+main #contents #item .item-img .item-spare a img {
+  margin: 0 30px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: solid 1px #000;
+  transition: box-shadow 0.3s linear;
+}
+/* line 59, ../sass/item.scss */
+main #contents #item .item-img .item-spare a img:hover {
+  box-shadow: 2px 2px 2px 2px #5b506b;
+}
+/* line 63, ../sass/item.scss */
+main #contents #item .item-img .item-spare a h3 {
+  font-family: SmartFontUI;
+}
+/* line 68, ../sass/item.scss */
+main #contents #item .item-img #end {
+  padding-bottom: 30px;
+}
+/* line 73, ../sass/item.scss */
+main #contents #item #item-colom {
+  flex-direction: row;
+}
+/* line 77, ../sass/item.scss */
+main #contents h2 {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: SmartFontUI;
+  font-size: 30px;
+}
