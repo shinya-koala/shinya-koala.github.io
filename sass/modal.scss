@@ -1,3 +1,4 @@
+@charset "utf-8";
 @import "font";
 
 #wrap{
@@ -26,6 +27,7 @@
   }
   #points{
     p{
+      margin: 0;
       font-family: SmartFontUI;
       font-size: 16px;
       span.color{
@@ -41,7 +43,7 @@
   }
   #submit-buttom{
     display: inline-block;
-    margin: 0 15px;
+    margin: 10px 0 50px 0;
 
     a{
       padding: 10px 30px;

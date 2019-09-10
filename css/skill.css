@@ -7,13 +7,13 @@
   font-family: 'Line';
   src: url("../font/Line-Light.otf") format("opentype");
 }
-/* line 3, ../sass/skill.scss */
+/* line 4, ../sass/skill.scss */
 #wrap {
   /*全画面表示※横幅はスクロールバーが出るので100%にすること*/
   width: 100%;
 }
 
-/* line 10, ../sass/skill.scss */
+/* line 11, ../sass/skill.scss */
 #page-top {
   position: fixed;
   bottom: 20px;
@@ -21,7 +21,7 @@
   font-size: 77%;
   z-index: 999;
 }
-/* line 17, ../sass/skill.scss */
+/* line 18, ../sass/skill.scss */
 #page-top a {
   background: #5ABE3B;
   text-decoration: none;
@@ -33,22 +33,22 @@
   border-radius: 5px;
   transition: background-color 0.3s linear, color 0.3s linear;
 }
-/* line 28, ../sass/skill.scss */
+/* line 29, ../sass/skill.scss */
 #page-top a:hover {
   text-decoration: none;
   background-color: white;
   color: black;
 }
 
-/* line 36, ../sass/skill.scss */
+/* line 37, ../sass/skill.scss */
 main {
   width: 100%;
 }
-/* line 39, ../sass/skill.scss */
+/* line 40, ../sass/skill.scss */
 main #contents {
   width: 100%;
 }
-/* line 44, ../sass/skill.scss */
+/* line 45, ../sass/skill.scss */
 main #contents #photo-all .photo-zone {
   width: 100vw;
   height: 100vh;
@@ -62,25 +62,30 @@ main #contents #photo-all .photo-zone {
   flex-direction: column;
   /* 子要素の並びを上から下にする（要素の改行に対応） */
 }
-/* line 53, ../sass/skill.scss */
+/* line 54, ../sass/skill.scss */
 main #contents #photo-all .photo-zone h2 {
   font-family: Line;
   font-size: 50px;
   margin-bottom: 40px;
 }
-/* line 58, ../sass/skill.scss */
+/* line 59, ../sass/skill.scss */
 main #contents #photo-all .photo-zone h2.smart-font {
   display: inline-block;
   margin-top: 40px;
   font-family: SmartFontUI;
   font-size: 35px;
 }
-/* line 65, ../sass/skill.scss */
+/* line 66, ../sass/skill.scss */
 main #contents #photo-all .photo-zone p {
   font-family: SmartFontUI;
   font-size: 35px;
 }
-/* line 70, ../sass/skill.scss */
+/* line 69, ../sass/skill.scss */
+main #contents #photo-all .photo-zone p #imp-text {
+  color: red;
+  font-size: 80%;
+}
+/* line 75, ../sass/skill.scss */
 main #contents #photo-all #skill {
   background-attachment: fixed;
   /**/
@@ -94,7 +99,7 @@ main #contents #photo-all #skill {
   color: black;
   opacity: 0.8;
 }
-/* line 79, ../sass/skill.scss */
+/* line 84, ../sass/skill.scss */
 main #contents #photo-all #engineer {
   background-attachment: fixed;
   /**/
@@ -107,34 +112,34 @@ main #contents #photo-all #engineer {
   /*全画面表示*/
   color: white;
 }
-/* line 86, ../sass/skill.scss */
+/* line 91, ../sass/skill.scss */
 main #contents #photo-all #engineer ul {
   display: flex;
 }
-/* line 88, ../sass/skill.scss */
+/* line 93, ../sass/skill.scss */
 main #contents #photo-all #engineer ul li {
   padding: 0 15px;
 }
-/* line 91, ../sass/skill.scss */
+/* line 96, ../sass/skill.scss */
 main #contents #photo-all #engineer ul li:hover {
   border-bottom: solid 1px #5ABE3B;
 }
-/* line 94, ../sass/skill.scss */
+/* line 99, ../sass/skill.scss */
 main #contents #photo-all #engineer ul li a {
   color: white;
   text-decoration: none;
   transition: color 0.3s linear;
 }
-/* line 99, ../sass/skill.scss */
+/* line 104, ../sass/skill.scss */
 main #contents #photo-all #engineer ul li a:hover {
   color: #5ABE3B;
 }
-/* line 102, ../sass/skill.scss */
+/* line 107, ../sass/skill.scss */
 main #contents #photo-all #engineer ul li a p {
   font-family: SmartFontUI;
   font-size: 35px;
 }
-/* line 111, ../sass/skill.scss */
+/* line 116, ../sass/skill.scss */
 main #contents #photo-all #web-design {
   background-attachment: fixed;
   /**/
@@ -147,38 +152,38 @@ main #contents #photo-all #web-design {
   /*全画面表示*/
   color: black;
 }
-/* line 118, ../sass/skill.scss */
+/* line 123, ../sass/skill.scss */
 main #contents #photo-all #web-design ul + ul {
   margin-top: 30px;
 }
-/* line 121, ../sass/skill.scss */
+/* line 126, ../sass/skill.scss */
 main #contents #photo-all #web-design ul {
   display: flex;
 }
-/* line 123, ../sass/skill.scss */
+/* line 128, ../sass/skill.scss */
 main #contents #photo-all #web-design ul li {
   padding: 0 15px;
 }
-/* line 125, ../sass/skill.scss */
+/* line 130, ../sass/skill.scss */
 main #contents #photo-all #web-design ul li:hover {
   border-bottom: solid 1px #5ABE3B;
 }
-/* line 128, ../sass/skill.scss */
+/* line 133, ../sass/skill.scss */
 main #contents #photo-all #web-design ul li a {
   color: black;
   text-decoration: none;
   transition: color 0.3s linear;
 }
-/* line 133, ../sass/skill.scss */
+/* line 138, ../sass/skill.scss */
 main #contents #photo-all #web-design ul li a:hover {
   color: #5ABE3B;
 }
-/* line 136, ../sass/skill.scss */
+/* line 141, ../sass/skill.scss */
 main #contents #photo-all #web-design ul li a p {
   font-family: SmartFontUI;
   font-size: 35px;
 }
-/* line 145, ../sass/skill.scss */
+/* line 150, ../sass/skill.scss */
 main #contents #photo-all #illust {
   background-attachment: fixed;
   /**/
@@ -191,7 +196,7 @@ main #contents #photo-all #illust {
   /*全画面表示*/
   color: black;
 }
-/* line 153, ../sass/skill.scss */
+/* line 158, ../sass/skill.scss */
 main #contents #photo-all #music {
   background-attachment: fixed;
   /**/

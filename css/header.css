@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url(font.scss);
-/* line 3, ../sass/header.scss */
+/* line 4, ../sass/header.scss */
 header {
   width: 100%;
   /*横幅最大*/
@@ -11,7 +11,7 @@ header {
   position: fixed;
   z-index: 999;
 }
-/* line 12, ../sass/header.scss */
+/* line 13, ../sass/header.scss */
 header #logo {
   width: 370px;
   /*logoと空白(15px)とタイトルを合わせた数*/
@@ -20,15 +20,15 @@ header #logo {
   display: inline-flex;
   align-items: center;
 }
-/* line 18, ../sass/header.scss */
+/* line 19, ../sass/header.scss */
 header #logo a {
   /*ロゴのリンク*/
 }
-/* line 21, ../sass/header.scss */
+/* line 22, ../sass/header.scss */
 header #logo a img {
   margin: 0 15px;
 }
-/* line 25, ../sass/header.scss */
+/* line 26, ../sass/header.scss */
 header #logo h1 {
   /*logoタイトル*/
   display: inline-block;
@@ -36,14 +36,14 @@ header #logo h1 {
   font-family: Line;
   font-size: 20px;
 }
-/* line 34, ../sass/header.scss */
+/* line 35, ../sass/header.scss */
 header nav {
   width: 550px;
   display: inline-block;
   position: absolute;
   right: 10px;
 }
-/* line 40, ../sass/header.scss */
+/* line 41, ../sass/header.scss */
 header nav ul {
   width: 570px;
   height: 100px;
@@ -51,11 +51,11 @@ header nav ul {
   align-items: center;
   justify-content: center;
 }
-/* line 46, ../sass/header.scss */
+/* line 47, ../sass/header.scss */
 header nav ul li {
   margin-right: 58px;
 }
-/* line 49, ../sass/header.scss */
+/* line 50, ../sass/header.scss */
 header nav ul li a {
   display: block;
   color: white;
@@ -64,23 +64,23 @@ header nav ul li a {
   text-decoration: none;
   transition: color 0.3s linear, border-bottom 0.5s linear;
 }
-/* line 57, ../sass/header.scss */
+/* line 58, ../sass/header.scss */
 header nav ul li a:hover {
   color: #5ABE3B;
   border-bottom: solid 1px #5ABE3B;
 }
-/* line 64, ../sass/header.scss */
+/* line 65, ../sass/header.scss */
 header nav ul li a p#now {
   /*現在いるnavの色を変える*/
   color: #5ABE3B;
   border-bottom: solid 1px #5ABE3B;
 }
-/* line 69, ../sass/header.scss */
+/* line 70, ../sass/header.scss */
 header nav ul li a p i {
   margin-right: 5px;
 }
 
-/* line 78, ../sass/header.scss */
+/* line 79, ../sass/header.scss */
 #header-space {
   /*headerのposition: fixedでの重なりを防止する(header-heightの100px分)*/
   height: 100px;

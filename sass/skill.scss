@@ -1,3 +1,4 @@
+@charset "utf-8";
 @import "font";
 
 #wrap{
@@ -65,6 +66,10 @@ main{
             p{
               font-family: SmartFontUI;
               font-size: 35px;
+              #imp-text{
+                color: red;
+                font-size: 80%;
+              }
             }
           }
           #skill{
