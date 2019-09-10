@@ -1,142 +1,242 @@
 <!doctype html>
 <html>
+
 <head>
-    <meta charset="utf-8">
-    <title>portfolio</title>
-    <!-- modaalのCSS -->
-    <link rel="stylesheet" href="css/iziModal.css">
-    <!-- jQueryプラグインを読み込み -->
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <!-- modaal.jsの読み込み -->
-    <script type="text/javascript" src="js/iziModal.min.js"></script>
-    <!-- jsの読み込み -->
-    <script type="text/javascript" src="js/portfolio.js"></script>
-    <!-- font-awesomeを使用 -->
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <!-- 共有CSS -->
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <!-- リセットCSS -->
-    <link rel="stylesheet" href="css/reset.css">
-    <!-- 現在のページのCSS -->
-    <link rel="stylesheet" href="css/portfolio.css">
+  <meta charset="utf-8">
+  <title>portfolio</title>
+  <!-- modaalのCSS -->
+  <link rel="stylesheet" href="css/iziModal.css">
+  <!-- jQueryプラグインを読み込み -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- modaal.jsの読み込み -->
+  <script type="text/javascript" src="js/iziModal.min.js"></script>
+  <!-- jsの読み込み -->
+  <script type="text/javascript" src="js/portfolio.js"></script>
+  <!-- font-awesomeを使用 -->
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!-- リセットCSS -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- 共有CSS -->
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <!-- 現在のページのCSS -->
+  <link rel="stylesheet" href="css/portfolio.css">
 </head>
 
 <body>
-    <div id="wrap">
+  <div id="wrap">
 
-        <!-- 共有header -->
-        <header>
-            <div id="logo">
-                <a href="index.html"><img src="images/logo/logo.png" width="96" height="72" alt="logo"></a>
-                <h1>C L E A T E　B O X</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">
-                            <p><i class="fas fa-user"></i>about</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="skill.html">
-                            <p><i class="far fa-edit"></i>skill</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="portfolio.html">
-                            <p id="now"><i class="far fa-image"></i>portfolio</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="item.html">
-                            <p><i class="fas fa-briefcase"></i>item</p>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <div id="header-space"></div>
+    <!-- 共有header -->
+    <header>
+      <div id="logo">
+        <a href="index.html"><img src="images/logo/logo.png" width="96" height="72" alt="logo"></a>
+        <h1>C L E A T E　B O X</h1>
+      </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">
+              <p><i class="fas fa-user"></i>about</p>
+            </a>
+          </li>
+          <li>
+            <a href="skill.html">
+              <p><i class="far fa-edit"></i>skill</p>
+            </a>
+          </li>
+          <li>
+            <a href="portfolio.html">
+              <p id="now"><i class="far fa-image"></i>portfolio</p>
+            </a>
+          </li>
+          <li>
+            <a href="item.html">
+              <p><i class="fas fa-briefcase"></i>item</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="header-space"></div>
 
-        <main>
-            <div id="contents">
+    <p id="page-top"><a href="#wrap">PAGE TOP</a></p>
 
-              <div id="heading">
-                <h2>Design</h2>
-              </div>
+    <main>
+      <div id="contents">
 
-              <div id="portfolio">
-                <div class="age">
-                  <h3>2017年</h3>
-                </div>
-                <!-- 一段目images -->
-                <div class="portfolio-img">
-                  <div class="portfolio-spare">
-                    <a href="#HALbakery" data-izimodal-open=".iziModal_iframe_HALbakery">
-                      <img src="images/portfolio-img/portfolio4.png" width="270" height="150" alt="portfolio">
-                      <h2>HALベーカリー</h2>
-                    </a>
-                  </div>
-                  <div class="portfolio-spare">
-                    <a href="#Guilleres" data-izimodal-open=".iziModal_iframe_Guillere">
-                      <img src="images/portfolio-img/portfolio1.png" width="270" height="150" alt="portfolio">
-                      <h2>Guillere</h2>
-                    </a>
-                  </div>
-                </div>
-                <!-- 二段目images -->
-                <div class="portfolio-img">
-                  <div class="portfolio-spare">
-                    <a href="#HALkids" data-izimodal-open=".iziModal_iframe_HALkids">
-                      <img src="images/portfolio-img/portfolio3.png" width="270" height="150" alt="portfolio">
-                      <h2>HAL幼稚園</h2>
-                    </a>
-                  </div>
-                  <div class="portfolio-spare">
-                    <a href="#aquarium" data-izimodal-open=".iziModal_iframe_aquarium">
-                      <img src="images/portfolio-img/portfolio5.png" width="270" height="150" alt="portfolio">
-                      <h2>アクアリウム de ショップ</h2>
-                    </a>
-                  </div>
-                </div>
-                <div class="age">
-                  <h3>2018年</h3>
-                </div>
-                  <!-- 三段目images -->
-                  <div class="portfolio-img">
-                    <div class="portfolio-spare">
-                      <a href="＃FANCEL" data-izimodal-open=".iziModal_iframe_FANCL">
-                        <img src="images/portfolio-img/portfolio2.png" width="270" height="150" alt="portfolio">
-                        <h2>FANCEL</h2>
-                      </a>
-                    </div>
-                  </div>
+        <div id="heading">
+          <h2>Design</h2>
+        </div>
 
-                </div>
+        <div id="portfolio">
 
-                <!-- Guillereのモーダルウィンドウ -->
-                <div class="iziModal_iframe_Guillere" data-izimodal-iframeURL="modal/Guillere.html"></div>
-                <!-- FANCLのモーダルウィンドウ -->
-                <div class="iziModal_iframe_FANCL" data-izimodal-iframeURL="modal/FANCL.html"></div>
-                <!-- FANCLのモーダルウィンドウ -->
-                <div class="iziModal_iframe_HALkids" data-izimodal-iframeURL="modal/HALkids.html"></div>
-                <!-- HALベーカリーのモーダルウィンドウ -->
-                <div class="iziModal_iframe_HALbakery" data-izimodal-iframeURL="modal/HALbakery.html"></div>
-                <!-- アクアリウム de ショップのモーダルウィンドウ -->
-                <div class="iziModal_iframe_aquarium" data-izimodal-iframeURL="modal/aquarium.html"></div>
-
-              </div>
-
-            </div>
-        </main>
-
-        <div id="footer-space"></div>
-        <footer>
-          <div id="frame">
-            <p>Copyright &copy; shinya-CreateBox</p>
+          <!--2017年以前の作品 -->
+          <div class="age">
+            <h3>2017年</h3>
           </div>
-        </footer>
+          <!-- 一段目images -->
+          <div class="portfolio-img">
+            <div class="portfolio-spare">
+              <a href="#HALbakery" data-izimodal-open=".iziModal_iframe_HALbakery">
+                <img src="images/portfolio-img/portfolio4.png" width="270" height="150" alt="portfolio">
+                <h2>HALベーカリー</h2>
+              </a>
+            </div>
+            <div class="portfolio-spare">
+              <a href="#Guilleres" data-izimodal-open=".iziModal_iframe_Guillere">
+                <img src="images/portfolio-img/portfolio1.png" width="270" height="150" alt="portfolio">
+                <h2>Guillere</h2>
+              </a>
+            </div>
+          </div>
+          <!-- 二段目images -->
+          <div class="portfolio-img">
+            <div class="portfolio-spare">
+              <a href="#HALkids" data-izimodal-open=".iziModal_iframe_HALkids">
+                <img src="images/portfolio-img/portfolio3.png" width="270" height="150" alt="portfolio">
+                <h2>HAL幼稚園</h2>
+              </a>
+            </div>
+            <div class="portfolio-spare">
+              <a href="#aquarium" data-izimodal-open=".iziModal_iframe_aquarium">
+                <img src="images/portfolio-img/portfolio5.png" width="270" height="150" alt="portfolio">
+                <h2>アクアリウム de ショップ</h2>
+              </a>
+            </div>
+          </div>
 
+          <!--2018年目の作品 -->
+          <div class="age">
+            <h3>2018年</h3>
+          </div>
+          <!-- 三段目images -->
+          <div class="portfolio-img">
+            <div class="portfolio-spare">
+              <a href="＃FANCEL" data-izimodal-open=".iziModal_iframe_FANCL">
+                <img src="images/portfolio-img/portfolio2.png" width="270" height="150" alt="portfolio">
+                <h2>FANCEL</h2>
+              </a>
+            </div>
+            <div class="portfolio-spare">
+              <a href="＃CastingAsia" data-izimodal-open=".iziModal_iframe_asia">
+                <img src="images/portfolio-img/portfolio6.png" width="270" height="150" alt="portfolio">
+                <h2>CastingAsia</h2>
+              </a>
+            </div>
+          </div>
+          <!-- 四段目images -->
+          <div class="portfolio-img">
+            <div class="portfolio-spare">
+              <a href="＃HELP-MEET" data-izimodal-open=".iziModal_iframe_HELP-MEET">
+                <img src="images/portfolio-img/portfolio7.png" width="270" height="150" alt="portfolio">
+                <h2>HELP MEET!</h2>
+              </a>
+            </div>
+          </div>
+          <!--2019年以降の作品 -->
+          <div class="age">
+            <h3>2019年</h3>
+          </div>
+          <!-- 五段目images -->
+          <div class="portfolio-img">
+            <div class="portfolio-spare">
+              <a href="＃Match" data-izimodal-open=".iziModal_iframe_Match">
+                <img src="images/portfolio-img/portfolio8.png" width="270" height="150" alt="portfolio">
+                <h2>Match!</h2>
+              </a>
+            </div>
+            <div class="portfolio-spare">
+              <a href="＃profile" data-izimodal-open=".iziModal_iframe_profile">
+                <img src="images/portfolio-img/portfolio9.png" width="270" height="150" alt="portfolio">
+                <h2>#1 プロフィール画面</h2>
+              </a>
+            </div>
+          </div>
+          <!-- 六段目images -->
+          <div class="portfolio-img">
+            <div class="portfolio-spare">
+              <a href="＃new-insert" data-izimodal-open=".iziModal_iframe_new-insert">
+                <img src="images/portfolio-img/portfolio10.png" width="270" height="150" alt="portfolio">
+                <h2>#2 新規登録画面</h2>
+              </a>
+            </div>
+            <div class="portfolio-spare">
+              <a href="＃message" data-izimodal-open=".iziModal_iframe_message">
+                <img src="images/portfolio-img/portfolio11.png" width="270" height="150" alt="portfolio">
+                <h2>#3 メッセージ画面</h2>
+              </a>
+            </div>
+          </div>
+          <!-- 七段目images -->
+          <div class="portfolio-img">
+            <div class="portfolio-spare">
+              <a href="＃cook-app" data-izimodal-open=".iziModal_iframe_cook-app">
+                <img src="images/portfolio-img/portfolio12.png" width="270" height="150" alt="portfolio">
+                <h2>#4 料理アプリの検索画面</h2>
+              </a>
+            </div>
+            <div class="portfolio-spare">
+              <a href="＃weather-app" data-izimodal-open=".iziModal_iframe_weather-app">
+                <img src="images/portfolio-img/portfolio13.png" width="270" height="150" alt="portfolio">
+                <h2>#5 お天気アプリ</h2>
+              </a>
+            </div>
+          </div>
+          <!-- 八段目images -->
+          <div class="portfolio-img portfolio-end">
+            <div class="portfolio-spare">
+              <a href="＃music-app" data-izimodal-open=".iziModal_iframe_music-app">
+                <img src="images/portfolio-img/portfolio14.png" width="270" height="150" alt="portfolio">
+                <h2>#6 音楽アプリの再生画面</h2>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Guillereのモーダルウィンドウ -->
+      <div class="iziModal_iframe_Guillere" data-izimodal-iframeURL="modal/Guillere.html"></div>
+      <!-- FANCLのモーダルウィンドウ -->
+      <div class="iziModal_iframe_FANCL" data-izimodal-iframeURL="modal/FANCL.html"></div>
+      <!-- HAL幼稚園のモーダルウィンドウ -->
+      <div class="iziModal_iframe_HALkids" data-izimodal-iframeURL="modal/HALkids.html"></div>
+      <!-- HALベーカリーのモーダルウィンドウ -->
+      <div class="iziModal_iframe_HALbakery" data-izimodal-iframeURL="modal/HALbakery.html"></div>
+      <!-- アクアリウム de ショップのモーダルウィンドウ -->
+      <div class="iziModal_iframe_aquarium" data-izimodal-iframeURL="modal/aquarium.html"></div>
+      <!-- CastingAsiaのモーダルウィンドウ -->
+      <div class="iziModal_iframe_asia" data-izimodal-iframeURL="modal/asia.html"></div>
+      <!-- HELP-MEETのモーダルウィンドウ -->
+      <div class="iziModal_iframe_HELP-MEET" data-izimodal-iframeURL="modal/HELPMEET.html"></div>
+      <!-- Match!のモーダルウィンドウ -->
+      <div class="iziModal_iframe_Match" data-izimodal-iframeURL="modal/Match.html"></div>
+      <!-- プロフィール画面のモーダルウィンドウ -->
+      <div class="iziModal_iframe_profile" data-izimodal-iframeURL="modal/profile.html"></div>
+      <!-- 新規登録のモーダルウィンドウ -->
+      <div class="iziModal_iframe_new-insert" data-izimodal-iframeURL="modal/new-insert.html"></div>
+      <!-- メッセージ画面のモーダルウィンドウ -->
+      <div class="iziModal_iframe_message" data-izimodal-iframeURL="modal/message.html"></div>
+      <!-- 料理アプリのモーダルウィンドウ -->
+      <div class="iziModal_iframe_cook-app" data-izimodal-iframeURL="modal/cook-app.html"></div>
+      <!-- お天気アプリのモーダルウィンドウ -->
+      <div class="iziModal_iframe_weather-app" data-izimodal-iframeURL="modal/weather-app.html"></div>
+      <!-- 音楽アプリのモーダルウィンドウ -->
+      <div class="iziModal_iframe_music-app" data-izimodal-iframeURL="modal/music-app.html"></div>
+
+  </div>
+
+  </div>
+  </main>
+
+  <div id="footer-space"></div>
+  <footer>
+    <div id="frame">
+      <p>Copyright &copy; shinya-CreateBox</p>
     </div>
+  </footer>
+
+  </div>
 </body>
+
 </html>

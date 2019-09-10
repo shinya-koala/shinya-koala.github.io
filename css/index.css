@@ -7,7 +7,7 @@
   font-family: 'Line';
   src: url("../font/Line-Light.otf") format("opentype");
 }
-/* line 4, ../sass/index.scss */
+/* line 5, ../sass/index.scss */
 #wrap {
   min-height: 100vh;
   /*全画面表示※横幅はスクロールバーが出るので100%にすること*/
@@ -21,15 +21,15 @@
   /*全画面表示*/
 }
 
-/* line 14, ../sass/index.scss */
+/* line 15, ../sass/index.scss */
 main {
   width: 100%;
 }
-/* line 17, ../sass/index.scss */
+/* line 18, ../sass/index.scss */
 main #contents {
   width: 100%;
 }
-/* line 20, ../sass/index.scss */
+/* line 21, ../sass/index.scss */
 main #contents #self-introduction {
   width: 1000px;
   margin: 70px auto 0 auto;
@@ -37,21 +37,22 @@ main #contents #self-introduction {
   justify-content: center;
   align-items: center;
 }
-/* line 27, ../sass/index.scss */
+/* line 28, ../sass/index.scss */
 main #contents #self-introduction #logo-big {
   width: 387px;
   height: 283px;
 }
-/* line 32, ../sass/index.scss */
+/* line 33, ../sass/index.scss */
 main #contents #self-introduction #about {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 583px;
   height: 300px;
   margin-left: 200px;
 }
-/* line 40, ../sass/index.scss */
+/* line 42, ../sass/index.scss */
 main #contents #self-introduction #about h2 {
   margin-bottom: 20px;
   color: white;
@@ -59,35 +60,35 @@ main #contents #self-introduction #about h2 {
   font-size: 40px;
   text-align: center;
 }
-/* line 49, ../sass/index.scss */
+/* line 51, ../sass/index.scss */
 main #contents #self-introduction #about ul li {
   margin-bottom: 10px;
 }
-/* line 52, ../sass/index.scss */
+/* line 54, ../sass/index.scss */
 main #contents #self-introduction #about ul li p {
   color: white;
   font-family: SmartFontUI;
   font-size: 30px;
 }
-/* line 61, ../sass/index.scss */
+/* line 63, ../sass/index.scss */
 main #contents #self-more {
   width: 1000px;
   margin: 0 auto 50px auto;
   text-align: center;
   font-family: SmartFontUI;
 }
-/* line 67, ../sass/index.scss */
+/* line 69, ../sass/index.scss */
 main #contents #self-more h2 {
   color: white;
   font-size: 40px;
   margin-bottom: 25px;
 }
-/* line 72, ../sass/index.scss */
+/* line 74, ../sass/index.scss */
 main #contents #self-more p {
   color: white;
   font-size: 25px;
 }
-/* line 76, ../sass/index.scss */
+/* line 78, ../sass/index.scss */
 main #contents #self-more p#read {
   margin-bottom: 25px;
 }

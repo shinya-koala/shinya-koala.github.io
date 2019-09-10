@@ -7,18 +7,18 @@
   font-family: 'Line';
   src: url("../font/Line-Light.otf") format("opentype");
 }
-/* line 2, ../sass/fullscreen.scss */
+/* line 3, ../sass/fullscreen.scss */
 html, body {
   height: 100%;
   margin: 0;
 }
 
-/* line 7, ../sass/fullscreen.scss */
+/* line 8, ../sass/fullscreen.scss */
 #wrap {
   height: 100%;
 }
 
-/* line 13, ../sass/fullscreen.scss */
+/* line 14, ../sass/fullscreen.scss */
 main #contents img {
   /*全画面表示※横幅はスクロールバーが出るので100%にすること*/
   width: 100vw;

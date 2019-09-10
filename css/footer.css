@@ -7,30 +7,30 @@
   font-family: 'Line';
   src: url("../font/Line-Light.otf") format("opentype");
 }
-/* line 2, ../sass/footer.scss */
+/* line 3, ../sass/footer.scss */
 #wrap {
   position: relative;
 }
 
-/* line 6, ../sass/footer.scss */
+/* line 7, ../sass/footer.scss */
 #footer-space {
   height: 100px;
 }
 
-/* line 9, ../sass/footer.scss */
+/* line 10, ../sass/footer.scss */
 footer {
   position: fixed;
   bottom: 0;
   width: 100vw;
 }
-/* line 13, ../sass/footer.scss */
+/* line 14, ../sass/footer.scss */
 footer #frame {
   text-align: center;
   width: 100vw;
   background-color: black;
   padding: 50px 0;
 }
-/* line 18, ../sass/footer.scss */
+/* line 19, ../sass/footer.scss */
 footer #frame p {
   color: white;
   font-family: Line;

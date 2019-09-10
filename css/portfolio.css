@@ -7,78 +7,110 @@
   font-family: 'Line';
   src: url("../font/Line-Light.otf") format("opentype");
 }
-/* line 3, ../sass/portfolio.scss */
+/* line 4, ../sass/portfolio.scss */
 #wrap {
   /*全画面表示※横幅はスクロールバーが出るので100%にすること*/
   width: 100%;
 }
 
-/* line 8, ../sass/portfolio.scss */
+/* line 10, ../sass/portfolio.scss */
+#page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 77%;
+  z-index: 999;
+}
+/* line 17, ../sass/portfolio.scss */
+#page-top a {
+  background: #5ABE3B;
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  padding: 30px 0;
+  text-align: center;
+  display: block;
+  border-radius: 5px;
+  transition: background-color 0.3s linear, color 0.3s linear;
+}
+/* line 28, ../sass/portfolio.scss */
+#page-top a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+
+/* line 37, ../sass/portfolio.scss */
 main {
   width: 100%;
 }
-/* line 11, ../sass/portfolio.scss */
+/* line 40, ../sass/portfolio.scss */
 main #contents {
   width: 100%;
 }
-/* line 14, ../sass/portfolio.scss */
+/* line 43, ../sass/portfolio.scss */
 main #contents #heading {
   display: flex;
   justify-content: center;
 }
-/* line 18, ../sass/portfolio.scss */
+/* line 47, ../sass/portfolio.scss */
 main #contents #heading h2 {
   margin: 65px 0;
   font-family: Line;
   font-size: 40px;
 }
-/* line 24, ../sass/portfolio.scss */
+/* line 53, ../sass/portfolio.scss */
 main #contents #portfolio {
   display: flex;
   flex-direction: column;
+  /* ポートフォリオ最後の下余白 */
 }
-/* line 28, ../sass/portfolio.scss */
+/* line 57, ../sass/portfolio.scss */
 main #contents #portfolio .portfolio-img {
   display: flex;
   justify-content: center;
 }
-/* line 32, ../sass/portfolio.scss */
+/* line 61, ../sass/portfolio.scss */
 main #contents #portfolio .portfolio-img .portfolio-spare {
   margin: 20px 50px;
 }
-/* line 35, ../sass/portfolio.scss */
+/* line 64, ../sass/portfolio.scss */
 main #contents #portfolio .portfolio-img .portfolio-spare a {
   text-decoration: none;
   color: black;
 }
-/* line 39, ../sass/portfolio.scss */
+/* line 68, ../sass/portfolio.scss */
 main #contents #portfolio .portfolio-img .portfolio-spare a:hover {
   opacity: 0.8;
 }
-/* line 42, ../sass/portfolio.scss */
+/* line 71, ../sass/portfolio.scss */
 main #contents #portfolio .portfolio-img .portfolio-spare a img {
   margin-bottom: 10px;
   border-radius: 5px;
   border: solid 1px #000;
   transition: box-shadow 0.3s linear;
 }
-/* line 48, ../sass/portfolio.scss */
+/* line 77, ../sass/portfolio.scss */
 main #contents #portfolio .portfolio-img .portfolio-spare a img:hover {
-  box-shadow: 2px 2px 2px #5b506b;
+  box-shadow: 4px 4px 2px #5b506b;
 }
-/* line 52, ../sass/portfolio.scss */
+/* line 81, ../sass/portfolio.scss */
 main #contents #portfolio .portfolio-img .portfolio-spare a h2 {
   font-family: SmartFontUI;
   text-align: center;
 }
-/* line 59, ../sass/portfolio.scss */
+/* line 89, ../sass/portfolio.scss */
+main #contents #portfolio .portfolio-end {
+  margin-bottom: 20px;
+}
+/* line 92, ../sass/portfolio.scss */
 main #contents #portfolio .age {
   width: 300px;
   margin: 0 auto;
   padding: 10px 0;
   border-bottom: solid 1px black;
 }
-/* line 64, ../sass/portfolio.scss */
+/* line 97, ../sass/portfolio.scss */
 main #contents #portfolio .age h3 {
   text-align: center;
   font-family: SmartFontUI;

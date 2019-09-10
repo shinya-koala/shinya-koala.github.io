@@ -1,9 +1,38 @@
+@charset "utf-8";
 @import "font";
 
 #wrap{
     /*全画面表示※横幅はスクロールバーが出るので100%にすること*/
     width: 100%;
 }
+
+//上へ行くボタン
+#page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 77%;
+  z-index: 999;
+
+  a{
+      background: #5ABE3B;
+      text-decoration: none;
+      color: #fff;
+      width: 100px;
+      padding: 30px 0;
+      text-align: center;
+      display: block;
+      border-radius: 5px;
+      transition: background-color 0.3s linear, color 0.3s linear;
+
+      &:hover{
+          text-decoration: none;
+          background-color: white;
+          color: black
+      }
+  }
+}
+
 
 main{
     width: 100%;
@@ -46,7 +75,7 @@ main{
                   transition: box-shadow 0.3s linear;
 
                   &:hover{
-                    box-shadow: 2px 2px 2px #5b506b;
+                    box-shadow: 4px 4px 2px #5b506b;
                   }
                 }
                 h2{
@@ -55,6 +84,10 @@ main{
                 }
               }
             }
+          }
+          /* ポートフォリオ最後の下余白 */
+          .portfolio-end{
+            margin-bottom: 20px;
           }
           .age{
             width: 300px;

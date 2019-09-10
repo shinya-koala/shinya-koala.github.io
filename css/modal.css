@@ -7,56 +7,57 @@
   font-family: 'Line';
   src: url("../font/Line-Light.otf") format("opentype");
 }
-/* line 3, ../sass/modal.scss */
+/* line 4, ../sass/modal.scss */
 #wrap {
   /*全画面表示※横幅はスクロールバーが出るので100%にすること*/
   width: 100%;
   height: 100vh;
 }
 
-/* line 10, ../sass/modal.scss */
+/* line 11, ../sass/modal.scss */
 #contents {
   text-align: center;
 }
-/* line 13, ../sass/modal.scss */
+/* line 14, ../sass/modal.scss */
 #contents img {
   border: solid 1px #000;
 }
-/* line 16, ../sass/modal.scss */
+/* line 17, ../sass/modal.scss */
 #contents h2 {
   font-family: SmartFontUI;
   font-size: 20px;
 }
-/* line 20, ../sass/modal.scss */
+/* line 21, ../sass/modal.scss */
 #contents h3 {
   font-family: SmartFontUI;
   font-size: 16px;
 }
-/* line 23, ../sass/modal.scss */
+/* line 24, ../sass/modal.scss */
 #contents h3 p {
   font-family: SmartFontUI;
 }
-/* line 28, ../sass/modal.scss */
+/* line 29, ../sass/modal.scss */
 #contents #points p {
+  margin: 0;
   font-family: SmartFontUI;
   font-size: 16px;
 }
-/* line 31, ../sass/modal.scss */
+/* line 33, ../sass/modal.scss */
 #contents #points p span.color {
   color: red;
 }
-/* line 36, ../sass/modal.scss */
+/* line 38, ../sass/modal.scss */
 #contents #points h2 {
   color: #5ABE3B;
   font-family: Line;
   font-size: 20px;
 }
-/* line 42, ../sass/modal.scss */
+/* line 44, ../sass/modal.scss */
 #contents #submit-buttom {
   display: inline-block;
-  margin: 0 15px;
+  margin: 10px 0 50px 0;
 }
-/* line 46, ../sass/modal.scss */
+/* line 48, ../sass/modal.scss */
 #contents #submit-buttom a {
   padding: 10px 30px;
   text-decoration: none;
@@ -68,15 +69,15 @@
   font-size: 15px;
   transition: background-color 0.3s linear;
 }
-/* line 57, ../sass/modal.scss */
+/* line 59, ../sass/modal.scss */
 #contents #submit-buttom a:hover {
   background-color: white;
 }
-/* line 61, ../sass/modal.scss */
+/* line 63, ../sass/modal.scss */
 #contents #submit-buttom a#site {
   margin-right: 15px;
 }
-/* line 65, ../sass/modal.scss */
+/* line 67, ../sass/modal.scss */
 #contents #submit-buttom a#my-camp {
   margin-left: 15px;
 }
